@@ -3,7 +3,7 @@
 widget = "contact"
 active = true
 
-title = "Contact"
+title = "Мои контакты"
 subtitle = ""
 
 # Order that this section will appear in.

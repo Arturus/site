@@ -1,0 +1,40 @@
+.greek {
+  /*font-family: '{{ .Get "body_font" }}', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+}
+
+.article-container {
+  /* My modification begin */
+  max-width: 900px;
+  /* My modification end */
+  padding: 0 20px 0 20px;
+  margin: 0 auto 0 auto;
+}
+
+.navbar-light .navbar-brand {
+  text-transform: none;
+}
+
+
+img[src$='#center']
+{
+  display: block;
+  margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+  /* whatever else styles you fancy here */
+}
+
+img[src$='#floatleft']
+{
+  float:left;
+  margin: 0.7rem;      /* this margin is totally up to you */
+  /* whatever else styles you fancy here */
+}
+
+img[src$='#floatright']
+{
+  float:right;
+  margin: 0.7rem;      /* this margin is totally up to you */
+  /* whatever else styles you fancy here */
+}
