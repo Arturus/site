@@ -302,7 +302,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Blog (RU)"
-  url = "/ru/post"
+  url = "/ru/post/"
   weight = 3
 
 #[[menu.main]]
@@ -357,7 +357,7 @@ enableGitInfo = false
 # Uncomment the lines below to configure your website in a second language.
 [languages.ru]
   weight=10
-  languageCode = "ru-ru"
+  languageCode = "ru"
   title = "Артур Суилин"
   #baseURL = "https://suilin.ru"
   copyright = "&copy; 2018 &middot; Артур Суилин"
@@ -373,7 +373,7 @@ enableGitInfo = false
     weight = 1
   [[languages.ru.menu.main]]
     name = "Блог"
-    url = "/post"
+    url = "/post/"
     weight = 3
   [[languages.ru.menu.main]]
     name = "Контакты"
