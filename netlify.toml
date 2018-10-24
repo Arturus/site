@@ -6,3 +6,8 @@
   HUGO_VERSION = "0.49.2"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/"
+  to = "/ru/"
+  conditions = {Language = ["ru"], Country=["RU"]}
