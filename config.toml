@@ -352,14 +352,14 @@ enableGitInfo = false
 [languages.en]
   weight=0
   languageCode = "en-us"
-  #baseURL = "https://suilin.me"
+  baseURL = "https://suilin.me"
 
 # Uncomment the lines below to configure your website in a second language.
 [languages.ru]
   weight=10
   languageCode = "ru"
   title = "Артур Суилин"
-  #baseURL = "https://suilin.ru"
+  baseURL = "https://suilin.ru"
   copyright = "&copy; 2018 &middot; Артур Суилин"
 
   [languages.ru.params]
