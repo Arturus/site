@@ -1,0 +1,4 @@
+User-agent: *
+Allow: *
+sitemap: https://suilin.ru/sitemap.xml
+sitemap: https://suilin.en/sitemap.xml
