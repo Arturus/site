@@ -302,7 +302,7 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Blog (RU)"
-  url = "/ru/post/"
+  url = "https://suilin.ru/post/"
   weight = 3
 
 #[[menu.main]]
