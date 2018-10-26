@@ -57,3 +57,9 @@ figcaption {
 figcaption.numbered:before {
   text-transform: none;
 }
+
+blockquote {
+  color: #7a7a7a;
+  font-style: italic;
+  border-left: .25rem solid #2b2b2b;
+}
