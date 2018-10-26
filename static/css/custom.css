@@ -38,3 +38,22 @@ img[src$='#floatright']
   margin: 0.7rem;      /* this margin is totally up to you */
   /* whatever else styles you fancy here */
 }
+
+.article-style img, .article-style video {
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+.article-style figure {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  margin-top: 0.1em;
+}
+
+figcaption.numbered:before {
+  text-transform: none;
+}
