@@ -375,6 +375,12 @@ enableGitInfo = false
     name = "Блог"
     url = "/post/"
     weight = 3
+
+  [[languages.ru.menu.main]]
+    name = "Проекты"
+    url = "/project/"
+    weight = 4
+
   [[languages.ru.menu.main]]
     name = "Контакты"
     url = "#contact"
