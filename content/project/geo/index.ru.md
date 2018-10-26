@@ -12,9 +12,9 @@ summary = "Решение проблемы определения места ж�
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["Instagram", "Deep.Social"]
 
-[header]
-  image="project/geo/world_crop.jpg"
-  caption="Кол-во Instagram постов в каждой точке мира"
+# [header]
+#  image="project/geo/world_crop.jpg"
+#  caption="Кол-во Instagram постов в каждой точке мира"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 # [image]
@@ -23,9 +23,10 @@ tags = ["Instagram", "Deep.Social"]
 #  
 #  # Focal point (optional)
 #  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-#  focal_point = ""
+#  focal_point = "Top"
 math = true
 +++
+<img src="world_crop2.jpg">
 Для рекламодателей одним из самых важных параметров блогера и его
 аудитории является географическое положение (geolocation), соответствующее
 месту жительства.
