@@ -1,0 +1,430 @@
+---
+references:
+- id: jin2018efficient
+  type: webpage
+  author:
+  - family: Jin
+    given: Haifeng
+  - family: Song
+    given: Qingquan
+  - family: Hu
+    given: Xia
+  issued:
+  - year: '2018'
+    month: '6'
+    day: '27'
+  title: 'Auto-keras: Efficient neural architecture search with network morphism'
+  title-short: Auto-keras
+  URL: http://arxiv.org/abs/1806.10282
+
+- id: pham2018efficient
+  type: article-journal
+  author:
+  - family: Pham
+    given: Hieu
+  - family: Guan
+    given: Melody Y.
+  - family: Zoph
+    given: Barret
+  - family: Le
+    given: Quoc V.
+  - family: Dean
+    given: Jeff
+  issued:
+  - year: '2018'
+  title: Efficient neural architecture search via parameter sharing
+  volume: abs/1802.03268
+  URL: http://arxiv.org/abs/1802.03268
+
+- id: liu2018darts
+  type: article-journal
+  author:
+  - family: Liu
+    given: Hanxiao
+  - family: Simonyan
+    given: Karen
+  - family: Yang
+    given: Yiming
+  issued:
+  - year: '2018'
+  title: 'Darts: Differentiable architecture search'
+  title-short: Darts
+  URL: http://arxiv.org/abs/1806.09055
+
+- id: cortes2017adanet
+  type: article-journal
+  author:
+  - family: Cortes
+    given: Corinna
+  - family: Gonzalvo
+    given: Xavi
+  - family: Kuznetsov
+    given: Vitaly
+  - family: Mohri
+    given: Mehryar
+  - family: Yang
+    given: Scott
+  issued:
+  - year: '2017'
+  title: 'AdaNet: Adaptive structural learning of artificial neural networks'
+  title-short: AdaNet
+  URL: http://arxiv.org/abs/1607.01097
+
+- id: zagoruyko2016wide
+  type: article-journal
+  author:
+  - family: Zagoruyko
+    given: Sergey
+  - family: Komodakis
+    given: Nikos
+  issued:
+  - year: '2016'
+  title: Wide residual networks
+  URL: http://arxiv.org/abs/1605.07146
+
+- id: huang2017densely
+  type: paper-conference
+  author:
+  - family: Huang
+    given: Gao
+  - family: Liu
+    given: Zhuang
+  - family: Maaten
+    given: Laurens
+    dropping-particle: van der
+  - family: Weinberger
+    given: Kilian Q.
+  issued:
+  - year: '2017'
+  title: Densely connected convolutional networks
+  container-title: CVPR
+  page: '2261-2269'
+  URL: http://arxiv.org/abs/1608.06993
+
+- id: real2018regularized
+  type: no-type
+  author:
+  - family: Real
+    given: Esteban
+  - family: Aggarwal
+    given: Alok
+  - family: Huang
+    given: Yanping
+  - family: Le
+    given: Quoc V
+  issued:
+  - year: '2018'
+  title: Regularized evolution for image classifier architecture search
+  URL: http://arxiv.org/abs/1802.01548
+
+- id: cubuk2018autoaugment
+  type: no-type
+  author:
+  - family: Cubuk
+    given: Ekin D.
+  - family: Zoph
+    given: Barret
+  - family: Mane
+    given: Dandelion
+  - family: Vasudevan
+    given: Vijay
+  - family: Le
+    given: Quoc V.
+  issued:
+  - year: '2018'
+  title: 'AutoAugment: Learning augmentation policies from data'
+  title-short: AutoAugment
+  URL: http://arxiv.org/abs/1805.09501
+
+- id: smith2017superconvergence
+  type: no-type
+  author:
+  - family: Smith
+    given: Leslie N.
+  - family: Topin
+    given: Nicholay
+  issued:
+  - year: '2017'
+  title: 'Super-convergence: Very fast training of neural networks using large learning
+    rates'
+  title-short: Super-convergence
+  URL: http://arxiv.org/abs/1708.07120
+
+- id: eidinger2014age
+  type: article-journal
+  author:
+  - family: Eidinger
+    given: Eran
+  - family: Enbar
+    given: Roee
+  - family: Hassner
+    given: Tal
+  issued:
+  - year: '2014'
+    month: '12'
+  title: Age and gender estimation of unfiltered faces
+  container-title: IEEE Transactions on Information Forensics and Security
+  page: '2170-2179'
+  volume: '9'
+  URL: https://www.openu.ac.il/home/hassner/Adience/EidingerEnbarHassner_tifs.pdf
+  DOI: 10.1109/TIFS.2014.2359646
+
+- id: rothe2016dex
+  type: article-journal
+  author:
+  - family: Rothe
+    given: Rasmus
+  - family: Timofte
+    given: Radu
+  - family: Gool
+    given: Luc Van
+  issued:
+  - year: '2016'
+    month: July
+  title: Deep expectation of real and apparent age from a single image without facial
+    landmarks
+  container-title: International Journal of Computer Vision (IJCV)
+  URL: https://www.vision.ee.ethz.ch/publications/papers/proceedings/eth_biwi_01229.pdf
+
+- id: zhang2016
+  type: article-journal
+  author:
+  - family: Zhang
+    given: Kaipeng
+  - family: Zhang
+    given: Zhanpeng
+  - family: Li
+    given: Zhifeng
+  - family: Qiao
+    given: Yu
+  issued:
+  - year: '2016'
+    month: '10'
+  title: Joint face detection and alignment using multitask cascaded convolutional
+    networks
+  container-title: IEEE Signal Processing Letters
+  publisher: Institute of Electrical; Electronics Engineers (IEEE)
+  page: '1499-1503'
+  volume: '23'
+  issue: '10'
+  URL: http://dx.doi.org/10.1109/LSP.2016.2603342
+  DOI: 10.1109/lsp.2016.2603342
+  ISSN: '1558-2361'
+
+- id: ludwiczuk2017
+  type: no-type
+  author:
+  - family: Ludwiczuk
+    given: Bartosz
+  issued:
+  - year: '2017'
+  title: Demystifying face recognition
+  URL: http://blcv.pl/static/tag/face-recogition
+
+- id: umeyama1991
+  type: article-journal
+  author:
+  - family: Umeyama
+    given: Shinji
+  issued:
+  - year: '1991'
+    month: '4'
+  title: Least-squares estimation of transformation parameters between two point patterns
+  container-title: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  publisher: IEEE Computer Society
+  publisher-place: Washington, DC, USA
+  page: '376-380'
+  volume: '13'
+  issue: '4'
+  URL: http://edge.cs.drexel.edu/Dmitriy/Matching_and_Metrics/Umeyama/um.pdf
+  DOI: 10.1109/34.88573
+  ISSN: '0162-8828'
+
+- id: he2016
+  type: article-journal
+  author:
+  - family: He
+    given: Kaiming
+  - family: Zhang
+    given: Xiangyu
+  - family: Ren
+    given: Shaoqing
+  - family: Sun
+    given: Jian
+  issued:
+  - year: '2016'
+    month: '6'
+  title: Deep residual learning for image recognition
+  container-title: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+  publisher: IEEE
+  URL: http://dx.doi.org/10.1109/CVPR.2016.90
+  DOI: 10.1109/cvpr.2016.90
+  ISBN: '9781467388511'
+
+- id: zoph2017learning
+  type: no-type
+  author:
+  - family: Zoph
+    given: Barret
+  - family: Vasudevan
+    given: Vijay
+  - family: Shlens
+    given: Jonathon
+  - family: Le
+    given: Quoc V.
+  issued:
+  - year: '2017'
+  title: Learning transferable architectures for scalable image recognition
+  URL: http://arxiv.org/abs/1707.07012
+
+- id: howard2017mobilenets
+  type: no-type
+  author:
+  - family: Howard
+    given: Andrew G.
+  - family: Zhu
+    given: Menglong
+  - family: Chen
+    given: Bo
+  - family: Kalenichenko
+    given: Dmitry
+  - family: Wang
+    given: Weijun
+  - family: Weyand
+    given: Tobias
+  - family: Andreetto
+    given: Marco
+  - family: Adam
+    given: Hartwig
+  issued:
+  - year: '2017'
+  title: 'MobileNets: Efficient convolutional neural networks for mobile vision
+    applications'
+  title-short: MobileNets
+  URL: http://arxiv.org/abs/1704.04861
+
+- id: zhifei2017cvpr
+  type: paper-conference
+  author:
+  - family: Zhang
+    given: Song
+    suffix: Zhifei
+  - family: Qi
+    given: Hairong
+  issued:
+  - year: '2017'
+  title: Age progression/regression by conditional adversarial autoencoder
+  container-title: IEEE conference on computer vision and pattern recognition (cvpr)
+  publisher: IEEE
+  URL: https://arxiv.org/abs/1702.08423
+
+- id: loshchilov2016sgdr
+  type: no-type
+  author:
+  - family: Loshchilov
+    given: Ilya
+  - family: Hutter
+    given: Frank
+  issued:
+  - year: '2016'
+  title: 'SGDR: Stochastic gradient descent with warm restarts'
+  title-short: SGDR
+  URL: http://arxiv.org/abs/1608.03983
+
+- id: smith2017cyclical
+  type: article-journal
+  author:
+  - family: Smith
+    given: Leslie N.
+  issued:
+  - year: '2017'
+    month: '3'
+  title: Cyclical learning rates for training neural networks
+  container-title: IEEE Winter Conference on Applications of Computer Vision (WACV)
+  publisher: IEEE
+  URL: http://dx.doi.org/10.1109/WACV.2017.58
+  DOI: 10.1109/wacv.2017.58
+  ISBN: '9781509048229'
+
+- id: jones2018ageguess
+  type: article-journal
+  author:
+  - family: Jones
+    given: JA
+  - family: Nash
+    given: UW
+  - family: Vieillefont
+    given: J
+  - family: Christensen
+    given: K
+  - family: Misevic
+    given: D
+  - family: Steiner
+    given: UK
+  issued:
+  - year: '2018'
+  title: 'The ageguess database: An open online resource on chronological and perceived
+    ages of people aged 3-100'
+  title-short: The ageguess database
+  URL: http://arxiv.org/abs/1608.10063
+
+- id: zhang2017mixup
+  type: no-type
+  author:
+  - family: Zhang
+    given: Hongyi
+  - family: Cisse
+    given: Moustapha
+  - family: Dauphin
+    given: Yann N.
+  - family: Lopez-Paz
+    given: David
+  issued:
+  - year: '2017'
+  title: 'Mixup: Beyond empirical risk minimization'
+  title-short: Mixup
+  URL: http://arxiv.org/abs/1710.09412
+
+- id: bulat2017far
+  type: paper-conference
+  author:
+  - family: Bulat
+    given: Adrian
+  - family: Tzimiropoulos
+    given: Georgios
+  issued:
+  - year: '2017'
+  title: How far are we from solving the 2D & 3D face alignment problem? (And a dataset
+    of 230,000 3D facial landmarks)
+  container-title: International conference on computer vision
+
+- id: lundberg2017shap
+  type: paper-conference
+  author:
+  - family: Lundberg
+    given: Scott M
+  - family: Lee
+    given: Su-In
+  editor:
+  - family: Guyon
+    given: I.
+  - family: Luxburg
+    given: U. V.
+  - family: Bengio
+    given: S.
+  - family: Wallach
+    given: H.
+  - family: Fergus
+    given: R.
+  - family: Vishwanathan
+    given: S.
+  - family: Garnett
+    given: R.
+  issued:
+  - year: '2017'
+  title: A unified approach to interpreting model predictions
+  container-title: Advances in neural information processing systems 30
+  publisher: Curran Associates, Inc
+  page: '4765-4774'
+  URL: http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf
+...
