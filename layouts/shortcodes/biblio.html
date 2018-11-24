@@ -1,0 +1,23 @@
+<hr style="margin-top: 3em;">
+<h2>Источники</h2>
+<ol>
+  {{ range $index, $ref := (.Page.Scratch.Get "refs") }}
+
+  {{ with $ref }}
+  <li id="{{.id}}">
+
+    <span class="bib-title">{{.title}}</span>
+    [<a href="{{.URL}}">{{if in .URL "arxiv.org"}}arXiv{{else if in .URL ".pdf"}}PDF{{else}}link{{end}}</a>] <a href="#{{.id}}_t">^</a>
+    <div class="bib-authors">
+     {{ range .author}}
+        {{slicestr .given 0 1}}. {{.family}},
+     {{ end }}
+    {{ (index .issued 0).year }}.
+    {{if isset . "container-title"}}{{index . "container-title"}}.{{end}}
+    {{if .DOI }} DOI:<a href="http://doi.org/{{.DOI}}">{{.DOI}}</a>{{end}}
+    </div>
+
+  </li>
+  {{ end }}
+  {{ end }}
+</ol>

@@ -1,0 +1,21 @@
+{{ $r := (.Get 0) }}{{ $scratch := (.Page.Scratch)  }}{{ $s := (.Scratch)  }}
+{{- $biblio := index .Site.Data.bibrefs .Page.Params.bibrefs -}}
+{{- $slice := where (index $biblio "references") "id" $r -}}
+{{- range $slice -}}
+      {{- $refs := ($scratch.Get "used_refs") | default dict -}}
+      {{- $label := 0 -}}
+      {{- if (isset $refs $r) -}}
+         {{- $label = index $refs $r -}}
+      {{- else -}}
+         {{- $scratch.Add "ref_count" 1 -}}
+         {{- $label = ($scratch.Get "ref_count") -}}
+         {{- $scratch.SetInMap "used_refs" $r $label -}}
+      {{- end -}}
+      {{- $n := printf "%02d"  $label -}}
+      <sup><a href="#{{$r}}" id="{{$r}}_t">[{{ $label }}]</a></sup>
+      {{- $scratch.SetInMap "refs" $n . -}}
+      {{- $s.Add "cnt" 1 -}}
+{{- end -}}
+{{- if ne ($s.Get "cnt") 1 -}}
+<span style="color: red">cnt={{$s.Get "cnt"}}</span>
+{{- end }}

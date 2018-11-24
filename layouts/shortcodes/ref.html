@@ -1,0 +1,10 @@
+{{ $r := (.Get 0) }}
+{{ range $.Site.Data.refs }}
+  {{if eq .id $r }}
+      {{ $family := (index .author 0).family }}
+      {{ $year := (index .issued 0).year }}
+     {{ $family }} {{ $year }}
+     {{ .Page.Scratch.Add "ref_count" 1 }}
+     {{ .Page.Scratch.SetInMap "refs" $r $r }}
+  {{ end }}
+{{ end }}
