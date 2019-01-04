@@ -1,0 +1,114 @@
+---
+references:
+- id: karnin2013almost
+  type: paper-conference
+  author:
+  - family: Karnin
+    given: Zohar
+  - family: Koren
+    given: Tomer
+  - family: Somekh
+    given: Oren
+  issued:
+  - year: '2013'
+  title: Almost optimal exploration in multi-armed bandits
+  container-title: ICML
+  page: '1238-1246'
+
+- id: auer2002finite
+  type: article-journal
+  author:
+  - family: Auer
+    given: Peter
+  - family: Cesa-Bianchi
+    given: Nicolo
+  - family: Fischer
+    given: Paul
+  issued:
+  - year: '2002'
+  title: Finite-time analysis of the multiarmed bandit problem
+  container-title: Machine learning
+  publisher: Springer
+  page: '235-256'
+  volume: '47'
+  issue: '2-3'
+
+- id: cesa1998finite
+  type: paper-conference
+  author:
+  - family: Cesa-Bianchi
+    given: Nicolo
+  - family: Fischer
+    given: Paul
+  issued:
+  - year: '1998'
+  title: Finite-time regret bounds for the multiarmed bandit problem.
+  container-title: ICML
+  publisher: Citeseer
+  page: '100-108'
+
+- id: luce2012individual
+  type: book
+  author:
+  - family: Luce
+    given: R Duncan
+  issued:
+  - year: '1959'
+  title: 'Individual choice behavior: A theoretical analysis'
+  title-short: Individual choice behavior
+  publisher: Wiley
+
+- id: jun2016top
+  type: paper-conference
+  author:
+  - family: Jun
+    given: Kwang-Sung
+  - family: Jamieson
+    given: Kevin G
+  - family: Nowak
+    given: Robert D
+  - family: Zhu
+    given: Xiaojin
+  issued:
+  - year: '2016'
+  title: Top arm identification in multi-armed bandits with batch arm pulls.
+  container-title: AISTATS
+  page: '139-148'
+
+- id: scott2010modern
+  type: article-journal
+  author:
+  - family: Scott
+    given: Steven L
+  issued:
+  - year: '2010'
+  title: A modern bayesian look at the multi-armed bandit
+  container-title: Applied Stochastic Models in Business and Industry
+  publisher: Wiley Online Library
+  page: '639-658'
+  volume: '26'
+  issue: '6'
+
+- id: russo2018tutorial
+  type: article-journal
+  author:
+  - family: Russo
+    given: Daniel J
+  - family: Van Roy
+    given: Benjamin
+  - family: Kazerouni
+    given: Abbas
+  - family: Osband
+    given: Ian
+  - family: Wen
+    given: Zheng
+  - literal: others
+  issued:
+  - year: '2018'
+  title: A tutorial on thompson sampling
+  container-title: Foundations and Trends in Machine Learning
+  publisher: Now Publishers, Inc.
+  page: '1-96'
+  volume: '11'
+  issue: '1'
+...
