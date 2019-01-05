@@ -111,4 +111,16 @@ references:
   page: '1-96'
   volume: '11'
   issue: '1'
+
+- id: collier2018deep
+  type: no-type
+  author:
+  - family: Collier
+    given: Mark
+  - family: Llorens
+    given: Hector Urdiales
+  issued:
+  - year: '2018'
+  title: Deep contextual multi-armed bandits
+  URL: https://arxiv.org/abs/1807.09809
 ...
