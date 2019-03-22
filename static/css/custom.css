@@ -77,13 +77,17 @@ figcaption.numbered:before {
 
 .article-style>p, .article-style li, .article-style td, .article-style th, div.article-style {
   font-family: "Merriweather", serif;
+  /*font-family: "PT Serif", serif;*/
+  /*font-family: "IBM Plex Sans", serif;*/
+  /*font-family: "PT Sans", serif;*/
+  /*font-family: "Open Sans", serif;*/
   /*font-family: "IBM Plex Serif", serif;*/
 
 }
 
-.article-style p {
-  text-align: justify;
-}
+/*.article-style p {*/
+  /*text-align: justify;*/
+/*}*/
 
 
 h1 {

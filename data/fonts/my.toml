@@ -10,14 +10,17 @@ google_fonts = "Fira+Sans+Condensed|PT+Mono|Merriweather:300|Fira+Sans"
 # Font families
 #heading_font = "Istok Web"
 heading_font = "Fira Sans Condensed"
+#heading_font = "PT Sans Narrow"
 #heading_font = "IBM Plex Sans Condensed"
 
 nav_font = "Fira Sans"
+#nav_font = "PT Sans"
 #nav_font = "IBM Plex Sans"
 #body_font = "Roboto"
 #body_font = "Arimo"
 #body_font = "Merriweather"
 body_font = "Fira Sans"
+#body_font = "PT Sans"
 #body_font = "IBM Plex Sans"
 
 #nav_font = "Source Sans Pro"
@@ -25,5 +28,5 @@ body_font = "Fira Sans"
 mono_font = "PT Mono"
 
 # Font size
-font_size = "18"
+font_size = "17"
 font_size_small = "16"
