@@ -1,0 +1,5 @@
+<figure {{ if .Get "vmargin" }}style="margin-top: {{ .Get "vmargin" }}; margin-bottom: {{ .Get "vmargin" }}"{{ end }}>
+<img width="{{ .Get "width" }}" height="{{ .Get "height" }}" class="lazy" src="{{ .Get "src" }}_lr.{{ .Get "type" }}"
+      data-src="{{ .Get "src" }}.{{ .Get "type" }}" data-srcset="{{ .Get "src" }}@2x.{{ .Get "type" }} 2x">
+  {{ if .Inner }}<figcaption>{{ .Inner }}</figcaption> {{ end }}
+</figure>

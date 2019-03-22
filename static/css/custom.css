@@ -1,7 +1,7 @@
-.greek {
-  /*font-family: '{{ .Get "body_font" }}', sans-serif;*/
-  font-family: 'Roboto', sans-serif;
-}
+/*.greek {*/
+  /*!*font-family: '{{ .Get "body_font" }}', sans-serif;*!*/
+  /*font-family: 'Roboto', sans-serif;*/
+/*}*/
 
 .article-container {
   /* My modification begin */
@@ -12,7 +12,7 @@
 }
 
 .navbar-light .navbar-brand {
-  text-transform: none;
+  /*text-transform: none;*/
 }
 
 
@@ -58,14 +58,15 @@ figcaption.numbered:before {
   text-transform: none;
 }
 
-blockquote {
-  color: #7a7a7a;
-  font-style: italic;
-  border-left: .25rem solid #2b2b2b;
-}
+/*blockquote {*/
+  /*color: #7a7a7a;*/
+  /*font-style: italic;*/
+  /*border-left: .25rem solid #2b2b2b;*/
+/*}*/
 
 .bib-title {
-  font-style: italic;
+  /*font-style: italic;*/
+  font-family: "Fira Sans Condensed", sans-serif;
 }
 
 .bib-authors {
@@ -74,12 +75,34 @@ blockquote {
   margin-bottom: 0.2em;
 }
 
+.article-style>p, .article-style li, .article-style td, .article-style th, div.article-style {
+  font-family: "Merriweather", serif;
+  /*font-family: "IBM Plex Serif", serif;*/
+
+}
+
+.article-style p {
+  text-align: justify;
+}
+
 
 h1 {
   font-size: 2.5rem;
 }
 h2 {
   margin-top: 1.5rem;
-  font-size: 1.75rem;
+  /*font-size: 1.75rem;*/
+  font-size: 2rem;
+
+}
+
+.page-subtitle, .article-widget li {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+/*#2b2b2b*/
+blockquote {
+  font-family: "Fira Sans", sans-serif;
+  border-left: .25rem solid;
+  text-align: left;
 }
 
