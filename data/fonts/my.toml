@@ -3,7 +3,7 @@ name = "Default"
 
 # Optional Google font URL
 #google_fonts = "Istok+Web|Roboto:400,400italic,700|Roboto+Mono"
-google_fonts = "Fira+Sans+Condensed|PT+Mono|Merriweather:300|Fira+Sans"
+google_fonts = "Fira+Sans+Condensed:400,400italic,700|PT+Mono|Fira+Sans|PT+Serif:400,400italic,700"
 #google_fonts = "PT+Sans+Caption|Roboto:400,400italic,700|Roboto+Mono"
 #google_fonts = "Istok+Web|Source+Sans+Pro:400,400italic,700|Roboto+Mono"
 
@@ -28,5 +28,5 @@ body_font = "Fira Sans"
 mono_font = "PT Mono"
 
 # Font size
-font_size = "17"
+font_size = "18"
 font_size_small = "16"

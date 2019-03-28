@@ -50,7 +50,7 @@ img[src$='#floatright']
 }
 
 figcaption {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-top: 0.1em;
 }
 
@@ -76,8 +76,8 @@ figcaption.numbered:before {
 }
 
 .article-style>p, .article-style li, .article-style td, .article-style th, div.article-style {
-  font-family: "Merriweather", serif;
-  /*font-family: "PT Serif", serif;*/
+  /*font-family: "Merriweather", serif;*/
+  font-family: "PT Serif", serif;
   /*font-family: "IBM Plex Sans", serif;*/
   /*font-family: "PT Sans", serif;*/
   /*font-family: "Open Sans", serif;*/
