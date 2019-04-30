@@ -110,3 +110,6 @@ blockquote {
   text-align: left;
 }
 
+pre code {
+  font-size: .8rem;
+}
