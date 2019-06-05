@@ -13,7 +13,7 @@ title = "Arthur Suilin"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018 &middot; Arthur Suilin"
+copyright = "&copy; 2019 &middot; Arthur Suilin"
 
 theme = "academic"
 enableEmoji = true
@@ -52,11 +52,11 @@ enableGitInfo = false
 
   # Your details.
   name = "Arthur Suilin"
-  role = "Chief Data Scientist"
+  role = "CEO"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with θa comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Promeθeus labs", url = "https://prometeus.network" } ]
+  organizations = [ { name = "Promeθeus Labs", url = "https://prometeus.io" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
     avatar = "me_sq.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
